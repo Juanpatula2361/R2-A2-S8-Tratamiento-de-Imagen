@@ -1,0 +1,163 @@
+{
+  "metricas": {
+    "referencia": {
+      "brillo": 144.28689878435517,
+      "contraste": 37.174534448526046,
+      "nitidez": 222.1057433350521,
+      "ruido": 1.1209676200232843,
+      "entropia": 6.5971598625183105,
+      "pct_oscuros": 2.2423774445031714,
+      "pct_saturados": 0.1740469741014799,
+      "bordes": 3.9411419793868925,
+      "ancho": 2576,
+      "alto": 1190,
+      "canales": 3,
+      "kb": 355.724609375,
+      "problema": "Ninguno (línea base)",
+      "adecuada": "Sí"
+    },
+    "oscura": {
+      "brillo": 76.71417068578224,
+      "contraste": 25.680523739889665,
+      "nitidez": 44.7613454383366,
+      "ruido": 0.4930603494974995,
+      "entropia": 6.104706764221191,
+      "pct_oscuros": 17.468081065010573,
+      "pct_saturados": 0.0,
+      "bordes": 0.6947426664904862,
+      "ancho": 2576,
+      "alto": 1190,
+      "canales": 3,
+      "kb": 189.658203125,
+      "problema": "Subexposición, bajo contraste",
+      "adecuada": "No"
+    },
+    "desenfocada": {
+      "brillo": 79.7600360894556,
+      "contraste": 26.397143826972535,
+      "nitidez": 90.5113596914856,
+      "ruido": 0.6502373252725178,
+      "entropia": 6.187554359436035,
+      "pct_oscuros": 16.77932577959831,
+      "pct_saturados": 0.0,
+      "bordes": 1.4357326902748415,
+      "ancho": 2576,
+      "alto": 1190,
+      "canales": 3,
+      "kb": 236.2607421875,
+      "problema": "Subexposición, bajo contraste, pérdida de nitidez",
+      "adecuada": "No"
+    },
+    "fondo": {
+      "brillo": 122.13061368591438,
+      "contraste": 49.9199981416319,
+      "nitidez": 70.2059983781359,
+      "ruido": 1.053903250812786,
+      "entropia": 7.331794738769531,
+      "pct_oscuros": 8.799385570824525,
+      "pct_saturados": 0.4515311178646934,
+      "bordes": 1.6585045586680762,
+      "ancho": 2576,
+      "alto": 1190,
+      "canales": 3,
+      "kb": 328.57421875,
+      "problema": "Pérdida de nitidez, distractores en el fondo",
+      "adecuada": "No"
+    },
+    "angulo": {
+      "brillo": 145.55577761627907,
+      "contraste": 38.59905971169264,
+      "nitidez": 306.6792124816044,
+      "ruido": 1.5653273776971297,
+      "entropia": 6.597289562225342,
+      "pct_oscuros": 5.254030126849894,
+      "pct_saturados": 0.2087324920718816,
+      "bordes": 10.762214257399577,
+      "ancho": 2576,
+      "alto": 1190,
+      "canales": 3,
+      "kb": 446.8671875,
+      "problema": "Cambio de perspectiva",
+      "adecuada": "Condicional"
+    }
+  },
+  "formatos": {
+    "resolucion": "1024 × 473",
+    "jpg_kb": 83.474609375,
+    "png_kb": 557.318359375,
+    "psnr_jpg": 43.167391541063594
+  },
+  "tratamiento": {
+    "Original (oscura)": {
+      "brillo": 76.71417068578224,
+      "contraste": 25.680523739889665,
+      "nitidez": 44.7613454383366,
+      "ruido": 0.4930603494974995,
+      "entropia": 6.104706764221191,
+      "pct_oscuros": 17.468081065010573,
+      "pct_saturados": 0.0,
+      "bordes": 0.6947426664904862
+    },
+    "Ajuste lineal α=1.6, β=10": {
+      "brillo": 132.74145662658563,
+      "contraste": 41.10634460028041,
+      "nitidez": 115.63420273622113,
+      "ruido": 0.8200898986057791,
+      "entropia": 6.650623321533203,
+      "pct_oscuros": 6.94577497357294,
+      "pct_saturados": 0.21121002906976744,
+      "bordes": 2.3003931025369977
+    },
+    "Ecualización global": {
+      "brillo": 125.39891236125793,
+      "contraste": 72.55197334684875,
+      "nitidez": 710.5532180580939,
+      "ruido": 2.435165416654656,
+      "entropia": 6.338399887084961,
+      "pct_oscuros": 20.271827100951374,
+      "pct_saturados": 18.238595071353064,
+      "bordes": 17.519902880549683
+    },
+    "Solo CLAHE": {
+      "brillo": 88.7443057941332,
+      "contraste": 30.61801913304727,
+      "nitidez": 200.05570951776738,
+      "ruido": 1.3503625218934878,
+      "entropia": 6.677892208099365,
+      "pct_oscuros": 15.08964554704017,
+      "pct_saturados": 0.0,
+      "bordes": 7.406803316596195
+    },
+    "Gamma + CLAHE + bilateral": {
+      "brillo": 120.35471103660149,
+      "contraste": 34.03054784558663,
+      "nitidez": 125.27526746750755,
+      "ruido": 0.6596661299197449,
+      "entropia": 6.615902900695801,
+      "pct_oscuros": 6.9143928382663855,
+      "pct_saturados": 0.016310451902748414,
+      "bordes": 4.291713464587738
+    },
+    "Gamma + CLAHE + NLM (propuesta)": {
+      "brillo": 120.47215248414376,
+      "contraste": 33.9377456050863,
+      "nitidez": 102.75561760446638,
+      "ruido": 0.3758976445491018,
+      "entropia": 6.581905841827393,
+      "pct_oscuros": 6.87888147463002,
+      "pct_saturados": 0.017549220401691334,
+      "bordes": 3.88064878435518
+    },
+    "Gamma + CLAHE": {
+      "brillo": 120.45653780721459,
+      "contraste": 34.256297641886235,
+      "nitidez": 186.87049931611003,
+      "ruido": 1.3538909465338873,
+      "entropia": 6.648285865783691,
+      "pct_oscuros": 7.023404466173362,
+      "pct_saturados": 0.0165169133192389,
+      "bordes": 6.386470996300211
+    }
+  },
+  "gamma": 0.611270542151158
+}
